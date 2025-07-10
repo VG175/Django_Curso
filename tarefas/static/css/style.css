@@ -1,0 +1,26 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* NAVBAR */
+.navbar{
+    background-color: #333 !important; /*Cor de fundo, preto um poco claro*/
+    border-bottom: 1px solid black !important; /**/
+}
+
+/*liks do meio da nav bar*/
+.navbar-nav{
+    margin: auto !important; /*bota eles ao meio*/
+}
+/*Nome da Todo*/
+.navbar-brand{
+    font-weight: bold !important; /*Mudou a fonte*/
+    font-size: 2em !important; /*Cada um 'em' equivale a 16px*/ /*Ficou maior */
+}
+/*Links da tag a*/
+.nav-link{
+    color: white !important;
+    font-size: 1.5em !important;
+    letter-spacing: 2px !important ; /*Espaço entre letras*/
+}
+
