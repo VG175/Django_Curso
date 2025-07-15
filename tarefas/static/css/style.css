@@ -23,4 +23,60 @@ body{
     font-size: 1.5em !important;
     letter-spacing: 2px !important ; /*Espaço entre letras*/
 }
-
+/* main atraves da classe list div */
+.list-div{
+    margin-left: 10% !important; /*Margem a esquerda*/
+    margin-right: 10% !important; /*Margem a direita*/
+}
+/*Botão de adicionar tarefa*/
+.add-div{
+    background-color: blue !important; /*Cor de fundo, azul*/
+    color: white !important; /*Cor do texto*/
+    border-radius: 5px !important; /*Borda arredondada*/
+    padding: 0.5em !important; /*Espaçamento interno*/
+}
+#add-button{
+    text-decoration: none !important; /*Remove o sublinhado do link*/
+    padding: 0% !important; /*Remove o espaçamento interno do link*/
+    margin: 0% !important; /*Remove a margem do link*/
+}
+/* barra de pesquisa */
+.barra{
+    margin-top: 1em !important; /*Margem acima*/
+    margin-bottom: 1em !important; /*Margem abaixo*/
+}
+/* lupa de pesquisa */
+.input-group-btn{
+    border: 1px solid(0, 0, 0, 0.206) !important; /*Borda da lupa*/
+    border-radius: 5px !important; /*Borda arredondada*/
+}
+/* -------------------------------------------------------- */
+/* iteis da barra de pesquisa */
+.item{
+    border-bottom:1px dotted black !important; /*Borda pontilhada abaixo do item*/
+    height: 3em !important; /*Altura do item*/
+    font-size: 2em !important; /*Tamanho da fonte do item*/
+    margin-top: 1em !important; /*Margem acima do item*/
+}
+/* Icones da lista*/
+.icones{
+    text-align: end !important; /*Alinha os icones ao final*/
+}
+.fa.fa-edit{
+    color: green !important; /*Cor azul para o icone de editar*/
+}
+.fa.fa-trash{
+    color: red !important; /*Cor vermelha para o icone de apagar*/
+}
+.link{
+    text-decoration: none !important; /*Remove o sublinhado do link*/
+}
+/* -------------------------------------------------------- */
+/*Rodapé*/
+footer{
+    background-color: #333 !important; /*Cor de fundo, preto um poco claro*/
+    color: white !important; /*Cor do texto*/
+    border-top:2px !important;
+    text-align: center !important; /*Alinha o texto ao centro*/
+    padding: 0.8em !important; /*Espaçamento interno do rodapé*/
+}
