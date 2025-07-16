@@ -73,17 +73,19 @@
             </div>
           </div>
         </div>
+        <!-- lista de tarefas -->
+        {%  for t in tarefas %}
         <div class="row item">
           <div class="col-sm-10">
-            <span><a class="link" href=""> Ir ao supermercado</a></span>
+            <span><a class="link" href=""> {{t.titulo}}</a></span>
           </div>
           <!-- icones de adicionar e apagar  no botão de pesquisar-->
           <div class="col-sm-2 icones" >
             <span><i class="fa fa-edit"></i></span>
             <span><i class=" fa fa-trash"></i></span>
           </div>
-
         </div>
+        {%  endfor  %}
 
       </div>
     </main>
